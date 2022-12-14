@@ -1,5 +1,3 @@
-import re
-
 with open("2022/input.txt", "r") as tasks:
 
     partOne = 0
