@@ -83,6 +83,7 @@ with open("2022/input.txt") as file:
             tailPosLast.add(tuple(rope[-1]))
 
     print("Part 2: ", len(tailPosLast))
+    print(tailPosLast)
 
     # Keep track of the last tails total positions, len(set(tuple(tail[-1])))
 
